@@ -12,7 +12,7 @@ const Card = (props) => {
     // Le return affichera les pays avec leurs caractéristiques
     return (
         <li className="card">
-            <img src={country.flag} alt="flag "></img>
+            <img src={country.flag} alt="flag"></img>
             <div className="data-container">
                 <ul>
                     <li>{country.name}</li>
